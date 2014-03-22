@@ -1,6 +1,8 @@
 #lang racket
 ;Anthony Mace CSC240 3/21/14
 ;Program 11
+;This program allows you to access and change
+;cell contents in a matrix, recursively.
 
 (define (getCell matrix row column)
   (if (null? matrix)
